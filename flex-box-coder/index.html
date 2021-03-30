@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .container {
+        width: 100%;
+        max-height: 300px
+        /* set hight 300px to the parent, so when you scroll down the box is wrapping to do wrap-reverse */
+        background-color: antiquewhite;
+        display: flex;
+
+
+        /* flex-direction: row; */
+
+        /* (chieu ngang)
+        column(chieu doc) */
+        /* or coloum, or reverse-colum */
+        /* flex-wrap: wrap; */
+        /* to make the box moving down when screen go smaller */
+        /* flex-flow: row wrap; */
+        /* this flex-flow replace for flex-wrap and flex-direction */
+
+
+        /* justify-content: flex-end; */
+        /* center, space-aropund, space-between( space between them) */
+        /* all the box will go to the right hand side */
+
+
+
+
+        flex-direction:row;
+        align-items: flex-start;
+        /* align item is vertical on the top
+            align-items:center, and flex-end ;
+            align-item: stretch (will only going with the hight of the parent, so make sure comment out the height. */
+
+
+
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        margin: 10px;
+      }
+
+      .box1{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        margin: 10px;
+        order: 5;
+        /* box 1 will place last, at the end of the row.  */
+
+        /* flex-grow: 2; */
+        /* box 1 expand double the size of the element. */
+
+
+        /* align-self: flex-end; */
+        /* target the box1 to the bottom
+        target specific item to move around;
+        flex-start,  */
+
+
+
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>

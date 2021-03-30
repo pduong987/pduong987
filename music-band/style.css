@@ -22,3 +22,126 @@ Use pseudo classes on the links in navbar.
 Do some more self-learning to get this page looking nice and pretty.
 
 Do not forget to validate your code. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: "Brush Script MT", cursive;
+  line-height: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Parisienne", cursive;
+  font-size: 5em;
+  line-height: 1.5em;
+}
+
+.container {
+  margin: 10px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+h1,
+h2,
+h4 {
+  padding-bottom: 20px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+h2,
+p {
+  font-size: 30px;
+}
+
+p {
+  font-family: cursive;
+  margin: 10px 0;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+div {
+  display: block;
+}
+
+.infor {
+  line-height: 2em;
+}
+
+.album {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+.head,
+.track-list {
+  text-align: center;
+  font-size: 30px;
+}
+
+.head2 {
+  text-align: center;
+}
+
+.year {
+  text-align: center;
+}
+
+.member {
+  margin-bottom: 30px;
+  padding: 5px;
+  display: flex;
+  width: auto;
+  background-color: lightgrey;
+  max-height: auto;
+}
+
+.list {
+  text-align: center;
+  margin: auto;
+}
+
+/* .member img {
+  width: 200px;
+} */
+
+#nav-bar {
+  background: black;
+  color: #fff;
+  overflow: auto;
+  text-align: center;
+}
+
+#nav-bar ul {
+  list-style: none;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  padding: 10px;
+  width: 32%;
+  text-align: center;
+}
+
+#nav-bar ul li a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#nav-bar ul li a:hover {
+  background: #444;
+  color: #f7c08a;
+}
+
+#image-cover img {
+  width: 100%;
+  height: 500px;
+}

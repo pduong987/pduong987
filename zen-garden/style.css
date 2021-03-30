@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 40px;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+.head-font {
+  background: url("../zen-garden-2.png") no-repeat center center/cover;
+  height: 300px;
+  width: 100%;
+  text-align: right;
+  padding-top: 170px;
+  padding-bottom: 20px;
+  font-family: "Reggae One", cursive;
+  font-size: 40px;
+  /* padding: 60px 40px; */
+}
+
+.head {
+}
