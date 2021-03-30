@@ -24,11 +24,12 @@
 
 #open-phrase {
   display: block;
-  width: 60%;
+  width: 61%;
   margin: 50px auto;
   padding: 25px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 40px;
+  line-height: 60px;
 }
