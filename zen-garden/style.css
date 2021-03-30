@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+.center {
+  text-align: center;
+}
+
 #hero {
   background: url(./zen-garden-stone-balancing.jpeg) no-repeat center
     center/cover;
@@ -34,7 +38,7 @@
   line-height: 60px;
 }
 
-#open-phrase button {
+.action-button {
   border-radius: 5px;
   width: 300px;
   margin: 40px 10px 0px 10px;
@@ -44,7 +48,7 @@
   color: white;
 }
 
-#open-phrase button:hover {
+.action-button:hover {
   cursor: pointer;
   background-color: aquamarine;
   font-weight: bold;
@@ -70,13 +74,13 @@
 #content h1 {
   margin-bottom: 30px;
   font-size: 35px solid;
-  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #content p {
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
+  line-height: 50px;
 }
 
 #right-nav {
