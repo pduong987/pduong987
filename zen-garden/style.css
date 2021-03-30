@@ -37,9 +37,16 @@
 #open-phrase button {
   border-radius: 5px;
   width: 300px;
-  margin: 30px 10px 0px 10px;
+  margin: 40px 10px 0px 10px;
   padding: 20px;
   background-color: #b1cbbb;
   font-size: 25px;
   color: white;
+}
+
+#open-phrase button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+  font-weight: bold;
+  color: black;
 }
