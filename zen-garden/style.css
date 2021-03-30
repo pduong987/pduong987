@@ -21,3 +21,14 @@
   right: 50px;
   top: 170px;
 }
+
+#open-phrase {
+  display: block;
+  width: 60%;
+  margin: 50px auto;
+  padding: 25px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+}
