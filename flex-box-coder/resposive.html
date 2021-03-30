@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive</title>
+    <style>
+      #one {
+        font-size: 20px;
+        background-color: blue;
+      }
+
+      #two {
+        font-size: 20px;
+        background-color: black;
+      }
+
+      /* When the screen size is  smaller than 768 px, change fontsize to 40px */
+      @media screen and (max-width: 768px) {
+        #one {
+          font-size: 40px;
+          background-color: burlywood;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one">ONE</div>
+    <div id="two">TWO</div>
+  </body>
+</html>

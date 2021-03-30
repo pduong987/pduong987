@@ -1,0 +1,91 @@
+/* whole page style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: cursive;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+p {
+  margin: 15px;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+/* head style */
+.head1 {
+  background: url(./zen-garden-stone-balancing.jpeg) no-repeat center
+    center/cover;
+  width: 100%;
+  height: 400px;
+  text-align: right;
+  padding: 170px 15px;
+  font-size: 40px;
+  font-family: "Reggae One", cursive;
+}
+
+.wrapper {
+  width: 700px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sml-box1,
+.sml-box2 {
+  width: 400px;
+  height: 700px;
+  margin: 5px;
+  background: #86ad90;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sml-box1 .design-selection .list,
+.design-archives .list,
+.zen-resources .list {
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar .wrapper .sml-box1 {
+  display: block;
+  position: absolute;
+  top: 550px;
+  left: 5px;
+  width: 20%;
+  background-color: orange;
+}
+
+.sidebar .wrapper .sml-box2 {
+  display: block;
+  position: absolute;
+  top: 550px;
+  right: 5px;
+  width: 20%;
+  background-color: blue;
+}
+
+#zen-supporting {
+  display: block;
+  position: absolute;
+  top: 550px;
+  left: 21%;
+  right: 21%;
+
+  background-color: red;
+}
