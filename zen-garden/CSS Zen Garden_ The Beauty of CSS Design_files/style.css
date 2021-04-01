@@ -89,34 +89,42 @@
 }
 
 .container {
-  /* content: " "; */
+  position: relative;
+}
+
+.container:before {
+  content: " ";
+  position: absolute;
+  display: block;
   margin: 40px 0;
   width: 100%;
-  height: 1200px;
-  padding: 50px;
-  /* opacity: 0.5; */
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
   background-image: url(./img/japanese-rock-garden.jpeg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: cover;
   background-size: cover;
 }
 
-.container-subbox {
-  background-color: white;
-  width: 40%;
-  height: 100%;
-  padding-bottom: 10px;
-  margin-top: 7px;
-  /* padding: 30px; */
-  font-size: 28px;
-  text-align: center;
+.benefits,
+.requirements {
+  position: relative;
 }
 
-.container-subbox p {
-  padding-bottom: 20px;
-  font-family: "Roboto", sans-serif;
+.container .benefits p,
+.requirements p {
+  margin-left: 20px;
+  padding-bottom: 40px;
+  font-family: sans-serif;
+  font-size: 30px;
 }
 
-.container-subbox h3 {
-  padding-bottom: 20px;
+.container .benefits h3,
+.requirements h3 {
+  margin-left: 20px;
+  padding-bottom: 40px;
+  font-family: sans-serif;
+  font-size: 40px;
 }
